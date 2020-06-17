@@ -5,7 +5,7 @@ or if you feel like I'm using a tool that has a better alternative.
 
 ### Additional Information
 
-Gtk Theme: [Adapta Nokto](https://github.com/adapta-project/adapta-gtk-theme)
-Icon Theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
-i3 Status Bar: [bumblebee_status](https://github.com/tobi-wan-kenobi/bumblebee-status)
-Icon Font: [Font Awesome](https://github.com/gabrielelana/awesome-terminal-fonts)
+* Gtk Theme: [Adapta Nokto](https://github.com/adapta-project/adapta-gtk-theme)
+* Icon Theme: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+* i3 Status Bar: [bumblebee_status](https://github.com/tobi-wan-kenobi/bumblebee-status)
+* Icon Font: [Font Awesome](https://github.com/gabrielelana/awesome-terminal-fonts)
