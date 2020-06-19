@@ -13,6 +13,8 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-syntastic/syntastic'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 set t_Co=256
@@ -25,8 +27,11 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+" Set leaderkey to ,
+let mapleader=","
+
 let g:airline_powerline_fonts = 1
-set shell=sh
+set shell=bash
 
 " Syntastic settings
 set statusline+=%#warningmsg#

@@ -35,7 +35,7 @@ exec mpd
 
 # Start comp. manager and set background
 exec compton
-exec feh --bg-scale ~/Pictures/1265.jpg
+exec feh --bg-fill ~/Pictures/1265.jpg
 
 # Colors for titlebars
 
@@ -48,6 +48,14 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# control MPD with special keys
+bindsym XF86AudioPlay exec --no-startup-id mpc toggle
+bindsym XF86AudioNext exec --no-startup-id mpc next
+bindsym XF86AudioPrev exec --no-startup-id mpc prev
+bindsym XF86AudioStop exec --no-startup-id mpc stop
+
+# lock i3 with a special key
+bindsym XF86ScreenSaver exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
 
@@ -118,16 +126,23 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: " # Terminals and editors
-set $ws2 "2: " # Firefox
-set $ws3 "3: " # Messaging apps, I use i3 tabs
-set $ws4 "4: " # LibreOffice
-set $ws5 "5: " # BitWarden Password Manager
+
+# Terminals and editors
+set $ws1 "1: "
+# Firefox
+set $ws2 "2: " 
+# Messaging apps, I use i3 tabs
+set $ws3 "3: "  
+# LibreOffice 
+set $ws4 "4: " 
+# BitWarden Password Manager
+set $ws5 "5: " 
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10: " # Whatever task/process manager I'm using
+# Whatever task/process manager I'm using
+set $ws10 "10: " 
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -204,7 +219,7 @@ gaps outer 5
 # Bar configuration with bumblebee_status
 
 bar {
-    font pango:Inconsolata, FontAwesome, PowerlineSymbols 11
+    font pango:UbuntuMono, FontAwesome, PowerlineSymbols 12
     position top
     tray_output none
     status_command bumblebee-status\
