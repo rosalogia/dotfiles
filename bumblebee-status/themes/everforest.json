@@ -1,0 +1,47 @@
+{
+    "icons": [ "awesome-fonts" ],
+    "colors": [
+        {
+            "fg":       "#c7bea6",
+            "bg":       "#343b3e",
+            "red":      "#e67e80",
+            "pink":     "#da6eac",
+            "black":    "#000000",
+            "white":    "#ffffff",
+            "green":    "#b6c798",
+            "orange":   "#d99371",
+            "jade":     "#7a9c91",
+            "blue":     "#79b2ab"
+        }
+    ],
+    "defaults": {
+        "fg": "fg",
+        "bg": "bg",
+        "warning": {
+            "fg": "bg",
+            "bg": "orange"
+        },
+        "critical": {
+            "fg": "bg",
+            "bg": "red"
+        }
+    },
+    "cycle": [
+        {
+            "fg": "bg",
+            "bg": "pink"
+        },
+        {
+            "fg": "bg",
+            "bg": "green"
+        },
+        {
+            "fg": "bg",
+            "bg": "jade"
+        },
+        {
+            "fg": "bg",
+            "bg": "blue"
+        }
+    ]
+}
