@@ -1,0 +1,95 @@
+06:56:37 PM.385: CPU Name: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+06:56:37 PM.385: CPU Speed: 930.114MHz
+06:56:37 PM.386: Physical Cores: 2, Logical Cores: 4
+06:56:37 PM.386: Physical Memory: 15858MB Total, 10324MB Free
+06:56:37 PM.386: Kernel Version: Linux 5.15.11-arch2-1
+06:56:37 PM.386: Distribution: "Arch Linux" Unknown
+06:56:37 PM.386: Session Type: x11
+06:56:37 PM.386: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+06:56:37 PM.388: Portable mode: false
+06:56:37 PM.589: OBS 27.1.3-2 (linux)
+06:56:37 PM.589: ---------------------------------
+06:56:37 PM.592: ---------------------------------
+06:56:37 PM.592: audio settings reset:
+06:56:37 PM.592: 	samples per sec: 48000
+06:56:37 PM.592: 	speakers:        2
+06:56:37 PM.600: ---------------------------------
+06:56:37 PM.600: Initializing OpenGL...
+06:56:37 PM.700: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 520 (SKL GT2)
+06:56:37 PM.700: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.3.2, shading language 4.60
+06:56:37 PM.727: ---------------------------------
+06:56:37 PM.727: video settings reset:
+06:56:37 PM.727: 	base resolution:   1920x1080
+06:56:37 PM.727: 	output resolution: 1920x1080
+06:56:37 PM.727: 	downscale filter:  Bicubic
+06:56:37 PM.727: 	fps:               30/1
+06:56:37 PM.727: 	format:            NV12
+06:56:37 PM.727: 	YUV mode:          709/Partial
+06:56:37 PM.727: NV12 texture support not available
+06:56:37 PM.735: Audio monitoring device:
+06:56:37 PM.735: 	name: Default
+06:56:37 PM.735: 	id: default
+06:56:37 PM.735: ---------------------------------
+06:56:37 PM.739: Failed to load 'en-US' text for module: 'decklink-captions.so'
+06:56:37 PM.742: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:56:37 PM.909: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+06:56:37 PM.909: No blackmagic support
+06:56:37 PM.930: v4l2loopback not installed, virtual camera disabled
+06:56:37 PM.956: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+06:56:37 PM.956: 
+06:56:37 PM.956: FFMPEG VAAPI supported
+06:56:37 PM.979: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+06:56:37 PM.979: 
+06:56:37 PM.979: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+06:56:37 PM.981: ---------------------------------
+06:56:37 PM.981:   Loaded Modules:
+06:56:37 PM.981:     text-freetype2.so
+06:56:37 PM.981:     rtmp-services.so
+06:56:37 PM.981:     obs-x264.so
+06:56:37 PM.981:     obs-transitions.so
+06:56:37 PM.981:     obs-outputs.so
+06:56:37 PM.981:     obs-libfdk.so
+06:56:37 PM.981:     obs-filters.so
+06:56:37 PM.981:     obs-ffmpeg.so
+06:56:37 PM.981:     linux-v4l2.so
+06:56:37 PM.981:     linux-pulseaudio.so
+06:56:37 PM.981:     linux-jack.so
+06:56:37 PM.981:     linux-decklink.so
+06:56:37 PM.981:     linux-capture.so
+06:56:37 PM.981:     linux-alsa.so
+06:56:37 PM.981:     image-source.so
+06:56:37 PM.981:     frontend-tools.so
+06:56:37 PM.981:     decklink-ouput-ui.so
+06:56:37 PM.981:     decklink-captions.so
+06:56:37 PM.981: ---------------------------------
+06:56:37 PM.982: ==== Startup complete ===============================================
+06:56:37 PM.990: All scene data cleared
+06:56:37 PM.990: ------------------------------------------------
+06:56:37 PM.999: pulse-input: Server name: 'pulseaudio 15.0'
+06:56:38 PM.000: pulse-input: An error occurred while getting the source info!
+06:56:38 PM.000: [Loaded global audio device]: 'Desktop Audio'
+06:56:38 PM.000: pulse-input: Server name: 'pulseaudio 15.0'
+06:56:38 PM.000: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:56:38 PM.000: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+06:56:38 PM.000: [Loaded global audio device]: 'Mic/Aux'
+06:56:38 PM.005: xshm-input: Geometry 1920x1080 @ 0,0
+06:56:38 PM.018: Switched to scene 'Scene'
+06:56:38 PM.019: ------------------------------------------------
+06:56:38 PM.019: Loaded scenes:
+06:56:38 PM.019: - scene 'Scene':
+06:56:38 PM.019:     - source: 'Screen Capture (XSHM)' (xshm_input)
+06:56:38 PM.019: - scene 'Scene 2':
+06:56:38 PM.019:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+06:56:38 PM.019:     - source: 'Away' (text_ft2_source_v2)
+06:56:38 PM.019: ------------------------------------------------
+06:56:38 PM.596: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+06:56:38 PM.596: 
+06:56:46 PM.157: ==== Shutting down ==================================================
+06:56:46 PM.190: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 44
+06:56:46 PM.190: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 45
+06:56:46 PM.196: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+06:56:46 PM.196: pulse-input: Got 832 packets with 359024 frames
+06:56:46 PM.197: All scene data cleared
+06:56:46 PM.197: ------------------------------------------------
+06:56:46 PM.239: Failed to fetch parent window geometry!
+06:56:46 PM.240: Failed to fetch parent window geometry!
